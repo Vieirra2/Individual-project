@@ -12,7 +12,7 @@ class Student:
 
     def register_course(self, course):
         self.courses_registered.append(course)
-        self.grades[course.name] = None
+        self.email[course.name] = None
 
     def update_grade(self, course_name, grade):
         self.grades[course_name] = grade
